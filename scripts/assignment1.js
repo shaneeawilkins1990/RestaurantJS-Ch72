@@ -15,16 +15,16 @@ console.log("City " + city);
 // let variables - things that change with time
 
 let todaysSpeccailDish = "Tofu Skewers";
-let numbersofTables = "10";
+let numbersOfTables = "10";
 let restaurantOpen = "Open"
 
 console.log("today's Speccail Dish " + todaysSpeccailDish);
-console.log("Numbers of Tables " + numbersofTables);
+console.log("Numbers of Tables " + numbersOfTables);
 console.log("Restaurant Open " + restaurantOpen);
 
 // Changing values to variables
 restaurantOpen = "closed"
-numbersofTables = "3"
+numbersOfTables = "3"
 
 // printing updated report
 console.log("Updated Restuarant Report" + "\n" +
