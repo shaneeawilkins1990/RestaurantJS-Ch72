@@ -7,24 +7,22 @@ const sales = [320, 410, 290, 505, 480, 620, 710];
 
 for (let i=0; i<7; i++) {
     if(sales[i] >= "600") {
-        console.log(`${days[i]}: $${sales[i]} ${"Excellent day!"}`);
+        document.write(`${days[i]}: $${sales[i]} Excellent day<br>`);
     }else if (sales [i] >= "400") {
-        console.log(`${days[i]}: $${sales[i]} ${"Good day"}`)
-    }else 
-    if(sales [i] <= "200")
-    console.log(`${days[i]}: $${sales[i]} $"Slow day"`);
+        document.write(`${days[i]}: $${sales[i]} Good day <br>`)
+    }else
+    document.write(`${days[i]}: $${sales[i]} Slow day <br>`);
 }
 
-const weeklyTotal = [3335];
+const weeklyTotal = [3,335];
 const weeklyAverage = 476.43;
 
-    console.log(`${"Weekly total"}: $${weeklyTotal} `);
-    console.log(`${"Weekly average"}: $${weeklyAverage}`);{
+    document.write(`${"Weekly total"}: $${weeklyTotal} <br>`);
+    document.write(`${"Weekly average"}: $${weeklyAverage}`);{
 
     }
 
 
-// move it to html!!!!! and monday??
 
 
 
